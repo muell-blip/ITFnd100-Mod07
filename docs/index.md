@@ -137,3 +137,23 @@ save_data_to_file(strFileName, lstCustomer)  #call the save file function declar
 
 print(read_data_from_file(strFileName))  # call the read file function declared previously
 
+
+The following links are helpful in completing this script:
+
+https://www.python-course.eu/python3_exception_handling.php
+
+The page is well organized and provides multiple examples of Exception Handling in Python.  It was especially helpful for me because it embedded the try/except block within a while loop, and the example therefore fit nicely into my already-existing code.
+
+https://www.tutorialspoint.com/python/python_exceptions.htm
+
+Provides a list of standard Exceptions in Python and a short description of in which cases each is raised, i.e., a “Value Error” is raised when “the built-in function for a data type has the valid type of arguments, but the arguments have invalid values specified.”
+
+https://docs.python.org/3.7/library/pickle.html
+
+Comprehensive description of how pickle works and provides a list of functions (.dump, .load, etc.) to make the pickling process more convenient.
+
+https://www.pitt.edu/~naraehan/python3/pickling.html
+
+Short, well written example with a simple code example as well.
+
+
